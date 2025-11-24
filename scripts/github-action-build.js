@@ -131,8 +131,8 @@ class PakeBuildManager {
     if (this.config.needsSystemTray) {
       params.push("--show-system-tray");
     }
-    
-    params.push("--force-internal-navigation")
+
+    params.push("--force-internal-navigation");
 
     // Icon handling
     if (process.env.ICON?.trim()) {
